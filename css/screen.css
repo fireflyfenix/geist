@@ -242,6 +242,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     font-weight: bold;
     letter-spacing: -0.5px;
     z-index: 100;
+    background: url(../img/logo.svg)
 }
 
 .site-nav-logo:hover {
@@ -670,7 +671,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .reading-time {
     -ms-flex-negative: 0;
         flex-shrink: 0;
-    margin-left: 20px;
+    margin-left: 0px;
     color: var(--midgrey);
     font-size: 1.2rem;
     line-height: 33px;

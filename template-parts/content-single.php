@@ -43,10 +43,6 @@ $geist_category_url = get_category_link( $geist_categories[0]->term_id );
                 </div>
             </section>
 
-            <footer class="post-full-footer">
-                <?php get_template_part('template-parts/byline-single'); ?>
-            </footer>
-
             <section class="post-full-comments">
                 <?php
                     // If comments are open or we have at least one comment, load up the comment template.

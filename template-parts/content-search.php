@@ -47,21 +47,6 @@ if( $geist_categories ){
 
         <footer class="post-card-meta">
 
-            <ul class="author-list">
-                <li class="author-list-item">
-
-                    <div class="author-name-tooltip">
-                    	<?php esc_html( the_author() ); ?>
-                    </div>
-
-                    <?php if( $geist_author_avatar ){ ?>
-                        <a href="<?php echo esc_url( $geist_author_url ); ?>" class="static-avatar">
-                            <?php echo $geist_author_avatar; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-                        </a>
-                    <?php } ?>
-                </li>
-            </ul>
-
             <?php if( geist_estimated_reading_time() ){ ?>
                 <span class="reading-time"><?php echo esc_html( geist_estimated_reading_time() ); ?></span>
             <?php } ?>

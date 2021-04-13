@@ -8,11 +8,7 @@ $geist_blog_name = get_bloginfo( 'name' );
 <nav class="site-nav">
     <div class="site-nav-left">
         <?php if( !is_home() ){ ?>
-            <?php if( $geist_custom_logo_id ){ ?>
-                <a class="site-nav-logo" href="<?php echo esc_url( home_url() ); ?>"><img src="<?php echo esc_url( $geist_image[0] ); ?>" alt="<?php echo esc_html( $geist_blog_name ); ?>" /></a>
-            <?php }else{ ?>
-                <a class="site-nav-logo" href="<?php echo esc_url( home_url() ); ?>"><?php echo esc_html( $geist_blog_name ); ?></a>
-            <?php } ?>
+            <a class="site-nav-logo" href="<?php echo esc_url( home_url() ); ?>"></a>
         <?php } ?>
         <?php
         wp_nav_menu( array(
